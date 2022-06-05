@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url(/Travelpage/images/ocean.jpg);
+  background-image: url(/Travelpage/images/places/ocean.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -47,5 +47,51 @@
 #hero-content a:hover {
   text-decoration: underline;
   color: rgb(44, 44, 243);
-  background-color: rgb(255, 237, 0);
+  background: linear-gradient(45deg, rgb(229, 257, 255), rgb (205, 245, 242));
 }
+
+#highlights {
+  padding: 24px;
+  background-color: rgb(230, 258, 256);
+}
+
+#destination {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: rgb(60, 66, 65);
+  margin: 24px 0;
+}
+
+.destination {
+  margin: 0 20px;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(70, 69, 69);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination p {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(125, 125, 125);
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.destination strong {
+  color: rgb(0, 160, 120);
+}
+/* } helps fill big picture in correct aspect ratio  */
