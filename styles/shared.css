@@ -22,6 +22,7 @@ header {
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
+  /* color: rgb(44, 44, 243); */
   color: rgb(250, 245, 160);
   font-size: 50px;
   text-decoration: none;
